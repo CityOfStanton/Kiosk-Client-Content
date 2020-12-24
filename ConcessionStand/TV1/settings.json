@@ -1,0 +1,10 @@
+{
+    "Actions": [
+      {
+        "name": "Menu",
+        "path": "https://raw.githubusercontent.com/CityOfStanton/City-Park-Concession-Stand/main/ConcessionStand/Menu/Display/RegularMenu.png",
+        "stretch": "Uniform"
+      }
+    ],
+    "Lifecycle": "ContinuousLoop"
+  }
