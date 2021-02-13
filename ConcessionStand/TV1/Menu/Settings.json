@@ -7,7 +7,7 @@
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
             "path": "https://raw.githubusercontent.com/CityOfStanton/City-Park-Concession-Stand/main/ConcessionStand/Menu/Display/RegularMenu.png",
-            "stretch": "Uniform",
+            "stretch": "Fill",
             "name": "Show the Concession Stand menu",
             "duration": 1200
         }
