@@ -6,6 +6,14 @@
   "actions": [
     {
       "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://parkcalendar.stantonky.gov/month",
+      "autoScroll": false,
+      "settingsDisplayTime": 5,
+      "name": "Stanton City Park Calendar",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
       "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140784",
       "autoScroll": true,
       "scrollingTime": 15,

@@ -1,0 +1,15 @@
+{
+    "name": "Concession Stand Menu",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/Assets/Menu/Display/RegularMenu.png",
+            "stretch": "Fill",
+            "name": "Show the Concession Stand menu",
+            "duration": 1200
+        }
+    ]
+}

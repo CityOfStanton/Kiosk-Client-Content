@@ -1,0 +1,38 @@
+{
+  "name": "City Hall Welcome Area",
+  "pollingIntervalMinutes": 15,
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.stantonky.gov/",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "Stanton City Park Website",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.explorestanton.com/",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "Stanton Tourism Website",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.explorestanton.com/news",
+      "autoScroll": true,
+      "scrollingTime": 30,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "Stanton Tourism News",
+      "duration": 20
+    }
+  ]
+}

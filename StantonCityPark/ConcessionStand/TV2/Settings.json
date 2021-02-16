@@ -1,0 +1,116 @@
+{
+  "name": "2021 Baseball & Soccer Schedules",
+  "pollingIntervalMinutes": 15,
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://parkcalendar.stantonky.gov/month",
+      "autoScroll": false,
+      "settingsDisplayTime": 5,
+      "name": "Stanton City Park Calendar",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140784",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: Major League (11 & 12 year-olds)",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140785",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: Minor League (9 & 10 year-olds)",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140788",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: Coach Pitch (7 & 8 year-olds)",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140786",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: T-Ball (5 & 6 year-olds)",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140787",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: Instructional League (4 year-olds)",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140641",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: 4 & Under",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140780",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: 6 & Under",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140781",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: 8 & Under",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140782",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: 10 & Under",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140783",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "League Schedule: 12 & Under",
+      "duration": 20
+    }
+  ]
+}
