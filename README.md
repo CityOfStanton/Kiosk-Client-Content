@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Kiosk-Client-Content
+# Kiosk Client Content
 
 This repository contains all of the configuration data for the [Kiosk Client](https://github.com/CityOfStanton/Kiosk-Client/) deployments. This content not only controls what is displayed, but also houses the assets used in the Orchestration files.
 
