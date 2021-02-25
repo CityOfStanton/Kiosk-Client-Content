@@ -1,5 +1,5 @@
 {
-    "name": "Soccer Registration Menu",
+    "name": "Soccer Registration Logo",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
