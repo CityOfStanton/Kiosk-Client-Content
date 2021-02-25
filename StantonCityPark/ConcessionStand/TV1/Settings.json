@@ -1,5 +1,5 @@
 {
-    "name": "Baseball Registration Menu",
+    "name": "Baseball Registration Logo",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
