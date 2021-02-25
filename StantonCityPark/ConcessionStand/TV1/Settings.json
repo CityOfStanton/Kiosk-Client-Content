@@ -6,30 +6,9 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Baseball_Registration_Black.png",
-            "stretch": "Fill",
-            "name": "Show the Black Baseball Registration Logo",
-            "duration": 300
-        },
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Baseball_Registration_Red.png",
-            "stretch": "Fill",
-            "name": "Show the Red Baseball Registration Logo",
-            "duration": 300
-        },
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Red_Stripe.png.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Red_Stripe.png",
             "stretch": "Fill",
             "name": "Show the Red Stripe Baseball Registration Logo",
-            "duration": 300
-        },
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Black_Stripe.png.png",
-            "stretch": "Fill",
-            "name": "Show the Black Stripe Baseball Registration Logo",
             "duration": 300
         }
     ]
