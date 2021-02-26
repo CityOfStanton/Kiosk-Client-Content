@@ -9,7 +9,7 @@
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/Soccer_Logo_Registration_Orange_Stripe.png",
             "stretch": "Fill",
             "name": "Show the Orange Stripe Soccer Registration Logo",
-            "duration": 300
+            "duration": 900
         }
     ]
 }

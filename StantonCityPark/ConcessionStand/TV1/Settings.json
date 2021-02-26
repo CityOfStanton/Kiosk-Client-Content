@@ -9,7 +9,7 @@
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Red_Stripe.png",
             "stretch": "Fill",
             "name": "Show the Red Stripe Baseball Registration Logo",
-            "duration": 300
+            "duration": 900
         }
     ]
 }
