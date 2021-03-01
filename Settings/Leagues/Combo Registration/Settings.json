@@ -1,0 +1,15 @@
+{
+    "name": "Baseball/Soccer Registration Menu",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Combo/Soccer-Logo_Registration-Combo.png",
+            "stretch": "Fill",
+            "name": "Show the combo Baseball/Soccer Registration Logo",
+            "duration": 900
+        }
+    ]
+}
