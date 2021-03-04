@@ -1,28 +1,15 @@
 {
-    "name": "City Hall Welcome Area",
+    "name": "Baseball/Soccer Registration Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
-      {
-        "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-        "path": "https://www.stantonky.gov/",
-        "autoScroll": true,
-        "scrollingTime": 15,
-        "scrollingResetDelay": 5,
-        "settingsDisplayTime": 5,
-        "name": "Stanton City Park Website",
-        "duration": 20
-      },
-      {
-        "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-        "path": "https://www.explorestanton.com/",
-        "autoScroll": true,
-        "scrollingTime": 15,
-        "scrollingResetDelay": 5,
-        "settingsDisplayTime": 5,
-        "name": "Stanton Tourism Website",
-        "duration": 20
-      }
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Combo/Soccer-Logo_Registration-Combo.png",
+            "stretch": "Fill",
+            "name": "Show the combo Baseball/Soccer Registration Logo",
+            "duration": 900
+        }
     ]
-  }
+}
