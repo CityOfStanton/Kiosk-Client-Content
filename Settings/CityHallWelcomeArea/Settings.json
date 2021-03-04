@@ -23,16 +23,6 @@
       "settingsDisplayTime": 5,
       "name": "Stanton Tourism Website",
       "duration": 20
-    },
-    {
-      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-      "path": "https://www.explorestanton.com/news",
-      "autoScroll": true,
-      "scrollingTime": 30,
-      "scrollingResetDelay": 5,
-      "settingsDisplayTime": 5,
-      "name": "Stanton Tourism News",
-      "duration": 20
     }
   ]
 }
