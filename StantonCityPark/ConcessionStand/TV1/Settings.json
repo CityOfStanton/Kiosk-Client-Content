@@ -1,14 +1,14 @@
 {
-    "name": "Baseball Registration Menu",
+    "name": "Soccer Registration Logo",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Red_Stripe.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/Soccer_Logo_Registration_Orange_Stripe.png",
             "stretch": "Fill",
-            "name": "Show the Red Stripe Baseball Registration Logo",
+            "name": "Show the Orange Stripe Soccer Registration Logo",
             "duration": 900
         }
     ]
