@@ -1,0 +1,118 @@
+{
+    "name": "Spring Baseball And Soccer",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/GamesCalendar.php?OrgDir=stantoncitypark",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Game Calendar",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140784",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Baseball - Major League (11 & 12 year-olds)",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140785",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Baseball - Minor League (9 & 10 year-olds)",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140788",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Baseball - Coach Pitch (7 & 8 year-olds)",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140786",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Baseball - T-Ball (5 & 6 year-olds)",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140787",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Baseball - Instructional League (4 year-olds)",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/GamesCalendar.php?OrgDir=stantoncitypark",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Game Calendar",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140782",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Soccer - 10 & Under",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140781",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Soccer - 8 & Under",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140780",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Soccer - 6 & Under",
+            "duration": 45
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://www.quickscores.com/Orgs/ResultsDisplay.php?OrgDir=stantoncitypark&LeagueID=1140641",
+            "autoScroll": true,
+            "scrollingTime": 10,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 5,
+            "name": "Soccer - 4 & Under",
+            "duration": 45
+        }
+    ]
+}
