@@ -1,0 +1,15 @@
+{
+    "name": "Baseball Registration Menu",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Basketball/Basketball_Logo_Registration_Green Stripe.png",
+            "stretch": "Fill",
+            "name": "Show the Green Stripe Basketball Registration Logo",
+            "duration": 900
+        }
+    ]
+}
