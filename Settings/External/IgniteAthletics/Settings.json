@@ -1,0 +1,15 @@
+{
+    "name": "Ignite Athletics Menu",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/External/IgniteAthletics/IgniteAthleticsMenu.jpg",
+            "stretch": "Fill",
+            "name": "Show the Ignite Athletics Menu",
+            "duration": 1200
+        }
+    ]
+}
