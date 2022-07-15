@@ -1,5 +1,5 @@
 {
-    "name": "Concession Stand Menu",
+    "name": "Kayla Strong Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
