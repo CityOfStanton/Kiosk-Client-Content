@@ -6,7 +6,7 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/KaylaStrongMenu.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/KaylaStrong/Menu.png",
             "stretch": "Fill",
             "name": "Show the Kayla Strong menu",
             "duration": 1200
