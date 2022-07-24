@@ -1,0 +1,16 @@
+{
+  "name": "Stanton City Park Calendar",
+  "version": "1.0",
+  "pollingIntervalMinutes": 30,
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://parkcalendar.stantonky.gov/stream",
+      "settingsDisplayTime": 10,
+      "name": "Display the City Park calendar",
+      "version": "1.0"
+    }
+  ]
+}
