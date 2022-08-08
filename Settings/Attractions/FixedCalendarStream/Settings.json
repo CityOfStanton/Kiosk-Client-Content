@@ -9,6 +9,15 @@
       "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
       "path": "https://parkcalendar.stantonky.gov/stream",
       "settingsDisplayTime": 10,
+      "duration": 60,
+      "name": "Display the City Park calendar",
+      "version": "1.0"
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://parkcalendar.stantonky.gov/week",
+      "settingsDisplayTime": 10,
+      "duration": 60,
       "name": "Display the City Park calendar",
       "version": "1.0"
     }
