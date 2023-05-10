@@ -1,15 +1,15 @@
 {
-    "name": "Concession Stand Menu",
+    "name": "Out-Of-School Bash - TV Banner",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/Display/RegularMenu.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Banners/Out-Of-School-Bash_TV-Banner6.png",
             "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
+            "name": "Show the Out-Of-School Bash TV Banner",
             "duration": 1200
         }
     ]
-}
+  }
