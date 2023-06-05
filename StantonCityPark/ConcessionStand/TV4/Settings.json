@@ -7,12 +7,12 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-            "path": "https://parkcalendar.stantonky.gov/week?categories=453839836,453839876",
+            "path": "https://parkcalendar.stantonky.gov/stream",
             "autoScroll": false,
             "scrollingTime": 15,
             "scrollingResetDelay": 5,
             "settingsDisplayTime": 900,
-            "name": "Display the Park Calendar - Week View",
+            "name": "Display the Park Calendar - Stream View",
             "version": "1.0",
             "duration": 900
         }
