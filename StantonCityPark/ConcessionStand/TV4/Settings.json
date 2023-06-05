@@ -8,13 +8,20 @@
         {
             "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
             "path": "https://parkcalendar.stantonky.gov/stream",
-            "autoScroll": false,
+            "autoScroll": true,
             "scrollingTime": 15,
             "scrollingResetDelay": 5,
             "settingsDisplayTime": 900,
             "name": "Display the Park Calendar - Stream View",
             "version": "1.0",
-            "duration": 900
+            "duration": 60
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Banners/Out-Of-School-Bash_TV-Banner6-Postponed.png",
+            "stretch": "Fill",
+            "name": "Show the Out-Of-School Bash TV Banner",
+            "duration": 30
         }
     ]
 }
