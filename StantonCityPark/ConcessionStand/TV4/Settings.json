@@ -15,17 +15,6 @@
             "name": "Display the Park Calendar - Stream View",
             "version": "1.0",
             "duration": 60
-        },
-        {
-            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-            "path": "https://www.facebook.com/StantonCityPark/posts/pfbid0RoTfsFShiP8qyfd2YmEB5diUFBEnMwudR4jnCZvYS21Ffd9udx6sTfDu9XwcF7tWl",
-            "autoScroll": false,
-            "scrollingTime": 15,
-            "scrollingResetDelay": 5,
-            "settingsDisplayTime": 900,
-            "name": "Display the Out-of-School Bash cancellation notice",
-            "version": "1.0",
-            "duration": 30
         }
     ]
 }
