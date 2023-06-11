@@ -8,13 +8,13 @@
         {
             "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
             "path": "https://parkcalendar.stantonky.gov/stream",
-            "autoScroll": true,
+            "autoScroll": false,
             "scrollingTime": 180,
             "scrollingResetDelay": 5,
             "settingsDisplayTime": 900,
             "name": "Display the Park Calendar - Stream View",
             "version": "1.0",
-            "duration": 60
+            "duration": 900
         }
     ]
 }
