@@ -1,0 +1,53 @@
+name: Set TV Configuration
+jobs:
+  inputs:
+    setting_file:
+      required: true
+      description: The Settings to apply to the target TV
+      type: choice
+      options:
+        - Menu
+        - Calendar
+        - Baseball/Registration
+        - Basketball/Registration
+        - Soccer/Registration
+        - FlagFootball/Registration
+        - Volleyball/Registration
+    target_tv:
+      required: true
+      description: The TV to change
+      type: choice
+      options:
+        - TV1
+        - TV2
+        - TV3
+        - TV4
+  run:
+    steps:
+      - name: Set Variables
+        env:
+          SETTINGS_FILE: ${{ inputs.setting_file }}
+          TARGET_TV: ${{ inputs.target_tv }}
+
+      - name: Checkout files
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: |
+            Settings
+            StantonCityPark
+
+      - name: Copy Settings to TV
+        uses: canastro/copy-file-action@master
+        with:
+          source: "Settings\$SETTINGS_FILE\Settings.json"
+          target: "StantonCityPark\ConcessionStand\$TARGET_TV\Settings.json"
+
+      - uses: actions/checkout@v3
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -a
+          git commit -m "Copied $SETTINGS_FILE to $TARGET_TV"
+          git push
+
+
