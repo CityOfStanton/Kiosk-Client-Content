@@ -27,7 +27,6 @@ on:
           - TestTV
 
 permissions:
-  actions: read
   repository-projects: write
 
 jobs:
