@@ -26,12 +26,13 @@ on:
           - TV4
           - TestTV
 
-permissions:
-  repository-projects: write
-
 jobs:
   set-tv-configuration:
     runs-on: ubuntu-latest
+
+    permissions:
+      repository-projects: write
+      contents: write
 
     env:
       SETTINGS_FILE: ${{ inputs.setting_file }}
