@@ -14,7 +14,7 @@ on:
           - Soccer/Registration
           - FlagFootball/Registration
           - Volleyball/Registration
-          - External\IgniteAthletics
+          - External/IgniteAthletics
           - TestConfiguration
       target_tv:
         required: true
