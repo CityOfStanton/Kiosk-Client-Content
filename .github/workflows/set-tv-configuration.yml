@@ -47,10 +47,8 @@ jobs:
             StantonCityPark
 
       - name: Copy Settings to TV
-        uses: canastro/copy-file-action@master
-        with:
-          source: "Settings/$SETTINGS_FILE/Settings.json"
-          target: "StantonCityPark/ConcessionStand/$TARGET_TV/Settings.json"
+        run: |
+          cp ${GITHUB_WORKSPACE}/Settings/$SETTINGS_FILE/Settings.json ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_TV/Settings.json
 
       - uses: actions/checkout@v3
       - run: |
