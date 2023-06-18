@@ -15,7 +15,7 @@ on:
           - FlagFootball/Registration
           - Volleyball/Registration
           - External/IgniteAthletics
-          - TestConfiguration
+
       target_tv:
         required: true
         description: The TV to change
@@ -25,7 +25,6 @@ on:
           - TV2
           - TV3
           - TV4
-          - TestTV
 
 jobs:
   set-tv-configuration:
