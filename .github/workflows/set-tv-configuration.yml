@@ -15,6 +15,8 @@ on:
           - FlagFootball/Registration
           - Volleyball/Registration
           - External/IgniteAthletics
+          - OutOfSchoolBash/Current
+          - OutOfSchoolBash/Postponed
 
       target_tv:
         required: true

@@ -1,0 +1,15 @@
+{
+    "name": "Out-Of-School Bash Postponed - TV Banner",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Banners/Out-Of-School-Bash_TV-Banner-Postponed.png",
+            "stretch": "Fill",
+            "name": "Show the Out-Of-School Bash Postponed TV Banner",
+            "duration": 1200
+        }
+    ]
+  }
