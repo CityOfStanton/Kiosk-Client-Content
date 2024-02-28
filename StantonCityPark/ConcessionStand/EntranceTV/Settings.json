@@ -1,20 +1,15 @@
 {
-  "name": "City Park Calendar - Week View",
-  "version": "1.0",
+  "name": "Baseball Registration Menu",
   "pollingIntervalMinutes": 15,
   "lifecycle": "ContinuousLoop",
   "order": "Sequential",
   "actions": [
-    {
-      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-      "path": "https://parkcalendar.stantonky.gov/week?categories=453839836,453839876",
-      "autoScroll": false,
-      "scrollingTime": 15,
-      "scrollingResetDelay": 5,
-      "settingsDisplayTime": 900,
-      "name": "Display the Park Calendar - Week View",
-      "version": "1.0",
-      "duration": 900
-    }
+      {
+          "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+          "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/Baseball_Logo_Registration_Red_Stripe.png",
+          "stretch": "Fill",
+          "name": "Show the Red Stripe Baseball Registration Logo",
+          "duration": 900
+      }
   ]
 }
