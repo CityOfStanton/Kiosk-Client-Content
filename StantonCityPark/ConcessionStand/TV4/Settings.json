@@ -1,20 +1,15 @@
 {
-    "name": "City Park Calendar - Week View",
-    "version": "1.0",
+    "name": "Concession Stand Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
-            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-            "path": "https://parkcalendar.stantonky.gov/stream",
-            "autoScroll": false,
-            "scrollingTime": 180,
-            "scrollingResetDelay": 5,
-            "settingsDisplayTime": 900,
-            "name": "Display the Park Calendar - Stream View",
-            "version": "1.0",
-            "duration": 900
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/Display/RegularMenu.png",
+            "stretch": "Fill",
+            "name": "Show the Concession Stand menu",
+            "duration": 1200
         }
     ]
 }
