@@ -3,12 +3,24 @@
 
 This repository contains all of the configuration data for the [Kiosk Client](https://github.com/CityOfStanton/Kiosk-Client/) deployments. This content not only controls what is displayed, but also houses the assets used in the Orchestration files.
 
+- [Location Map](#location-map)
 - [Structure](#structure)
   - [Assets](#assets)
   - [Settings](#settings)
   - [Location Names](#location-names)
     - [StantonCityPark](#stantoncitypark)
     - [StantonCityHall](#stantoncityhall)
+
+## Location Map
+
+| Computer Name | Orientation | Location |
+| - | :-: | - |
+| Entrance TV | Vertical | Facing out the window next to the entrance closest to the parking lot. |
+| Mobile TV | Horizontal | Mounted on the mobile TV. |
+| TV 1 | Horizontal | Currently inactive |
+| TV 2 | Horizontal | Mounted to the left of the concession stand. |
+| TV 3 | Horizontal | Mounted to the right of the concession stand. |
+| TV 4 | Horizontal | Mounted beside the walk-up window. |
 
 ## Structure
 
