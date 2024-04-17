@@ -15,12 +15,10 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 
 | Computer Name | Orientation | Location |
 | - | :-: | - |
-| Entrance TV | Vertical | Facing out the window next to the entrance closest to the parking lot. |
-| Mobile TV | Horizontal | Mounted on the mobile TV. |
-| TV 1 | Horizontal | Currently inactive |
-| TV 2 | Horizontal | Mounted to the left of the concession stand. |
-| TV 3 | Horizontal | Mounted to the right of the concession stand. |
-| TV 4 | Horizontal | Mounted beside the walk-up window. |
+| TV 1 | Horizontal | Mounted to the left of the concession stand. |
+| TV 2 | Horizontal | Mounted to the right of the concession stand. |
+| TV 3 | Horizontal | Facing outside at the walk-up window. |
+| TV 4 | Vertical | Facing outside the window next to the entrance closest to the parking lot. |
 
 ## Structure
 
