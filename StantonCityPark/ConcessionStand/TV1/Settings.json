@@ -1,15 +1,15 @@
 {
-    "name": "Concession Stand Menu",
+    "name": "Teen Summer League",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/Display/RegularMenu.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TeenSummerLeague/SummerTeenLeague.png",
             "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
-            "duration": 1200
+            "name": "Show Teen Summer League advertisement",
+            "duration": 900
         }
     ]
 }
