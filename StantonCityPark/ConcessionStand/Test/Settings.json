@@ -1,15 +1,22 @@
 {
-  "name": "Teen Summer League",
-  "pollingIntervalMinutes": 15,
-  "lifecycle": "ContinuousLoop",
-  "order": "Sequential",
-  "actions": [
-      {
-          "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-          "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TeenSummerLeague/SummerTeenLeague.png",
-          "stretch": "Fill",
-          "name": "Show Teen Summer League advertisement",
-          "duration": 900
-      }
-  ]
+    "name": "Music in the Park and Teen Summer League",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/MusicInThePark/2024/2024Schedule.png",
+            "stretch": "Fill",
+            "name": "Show 2024 Music in the Park advertisement",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TeenSummerLeague/SummerTeenLeague.png",
+            "stretch": "Fill",
+            "name": "Show Teen Summer League advertisement",
+            "duration": 30
+        }
+    ]
 }
