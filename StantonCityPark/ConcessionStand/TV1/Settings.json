@@ -6,17 +6,10 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/MusicInThePark/2024/2024Schedule.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner4.png",
             "stretch": "Fill",
-            "name": "Show 2024 Music in the Park advertisement",
-            "duration": 30
-        },
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TeenSummerLeague/SummerTeenLeague.png",
-            "stretch": "Fill",
-            "name": "Show Teen Summer League advertisement",
-            "duration": 30
+            "name": "Show the Out-Of-School Bash TV Banner",
+            "duration": 1200
         }
     ]
 }
