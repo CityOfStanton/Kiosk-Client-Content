@@ -1,5 +1,5 @@
 {
-    "name": "Music in the Park and Teen Summer League",
+    "name": "Music in the Park and Out-Of-School Bash",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
