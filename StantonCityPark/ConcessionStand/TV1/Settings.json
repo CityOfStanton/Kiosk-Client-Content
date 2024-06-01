@@ -1,5 +1,5 @@
 {
-    "name": "AshleySchirmer",
+    "name": "AshleySchirmer + OOSB",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
@@ -10,6 +10,13 @@
             "stretch": "Fill",
             "name": "Show the AshleySchirmer Logo",
             "duration": 900
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner4.png",
+            "stretch": "Fill",
+            "name": "Show the Out-Of-School Bash TV Banner",
+            "duration": 1200
         }
     ]
 }
