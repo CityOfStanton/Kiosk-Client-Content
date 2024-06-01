@@ -1,15 +1,15 @@
 {
-    "name": "AshleySchirmer + OOSB",
+    "name": "Music in the Park and Out-Of-School Bash",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/SplashParkSponsorships/AshleySchirmer.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/MusicInThePark/2024/2024Schedule.png",
             "stretch": "Fill",
-            "name": "Show the AshleySchirmer Logo",
-            "duration": 900
+            "name": "Show 2024 Music in the Park advertisement",
+            "duration": 30
         },
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
