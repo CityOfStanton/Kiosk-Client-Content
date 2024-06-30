@@ -17,6 +17,41 @@
             "stretch": "Fill",
             "name": "StantonVeteransParade",
             "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/4thOfJuly/2024/VeteransParade.jpg",
+            "stretch": "Fill",
+            "name": "VeteransParade",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/4thOfJuly/2024/Reprile.jpg",
+            "stretch": "Fill",
+            "name": "Reprile",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/4thOfJuly/2024/Miguels.jpg",
+            "stretch": "Fill",
+            "name": "Miguels",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/4thOfJuly/2024/Hollerwood.jpg",
+            "stretch": "Fill",
+            "name": "Hollerwood",
+            "duration": 30
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/4thOfJuly/2024/HistoricalSocienty.jpg",
+            "stretch": "Fill",
+            "name": "HistoricalSocienty",
+            "duration": 30
         }
     ]
 }
