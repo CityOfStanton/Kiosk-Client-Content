@@ -13,10 +13,10 @@
         },
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner11.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/Display/RegularMenu.png",
             "stretch": "Fill",
-            "name": "Show the Out-Of-School Bash TV Banner",
-            "duration": 1200
+            "name": "Show the Concession Stand menu",
+            "duration": 60
         }
     ]
 }
