@@ -1,15 +1,15 @@
 {
-    "name": "Bigfoot Fest 2025 - Logo",
+    "name": "Out-Of-School Bash - TV Banner",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/BigfootFest/2025/Bigfoot%20Fest%20Logo.jpg",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner12.png",
             "stretch": "Fill",
-            "name": "Bigfoot Fest 2025 - Logo",
+            "name": "Show the Out-Of-School Bash TV Banner",
             "duration": 1200
         }
     ]
-}
+  }
