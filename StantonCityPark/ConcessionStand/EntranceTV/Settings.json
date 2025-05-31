@@ -1,5 +1,5 @@
 {
-  "name": "City Park Calendar - Week View",
+  "name": "Bigfoot Fest 2025 - Schedule",
   "version": "1.0",
   "pollingIntervalMinutes": 15,
   "lifecycle": "ContinuousLoop",
@@ -7,12 +7,12 @@
   "actions": [
       {
           "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-          "path": "https://parkcalendar.stantonky.gov/stream",
+          "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/BigfootFest/2025/Bigfoot%20Fest%20Logo.jpg",
           "autoScroll": false,
           "scrollingTime": 15,
           "scrollingResetDelay": 5,
           "settingsDisplayTime": 900,
-          "name": "Display the Park Calendar - Stream View",
+          "name": "Bigfoot Fest 2025 - Schedule",
           "version": "1.0",
           "duration": 900
       }
