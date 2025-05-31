@@ -5,16 +5,16 @@
   "lifecycle": "ContinuousLoop",
   "order": "Sequential",
   "actions": [
-      {
-          "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-          "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/BigfootFest/2025/Bigfoot%20Fest%20Logo.jpg",
-          "autoScroll": false,
-          "scrollingTime": 15,
-          "scrollingResetDelay": 5,
-          "settingsDisplayTime": 900,
-          "name": "Bigfoot Fest 2025 - Schedule",
-          "version": "1.0",
-          "duration": 900
-      }
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/BigfootFest/2025/red-river-gorge-fest-schedule-best.png",
+      "autoScroll": false,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 900,
+      "name": "Bigfoot Fest 2025 - Schedule",
+      "version": "1.0",
+      "duration": 900
+    }
   ]
 }
