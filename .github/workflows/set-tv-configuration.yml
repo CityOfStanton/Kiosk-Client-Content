@@ -10,14 +10,23 @@ on:
           - Menu/RegularMenu
           - Menu/TournamentMenu
           - Calendar/WeekView
-          - Baseball/Registration
-          - Basketball/Registration
-          - Soccer/Registration
-          - FlagFootball/Registration
-          - Volleyball/Registration
           - External/IgniteAthletics
           - OutOfSchoolBash/Current
           - OutOfSchoolBash/Postponed
+          - Leagues/Baseball/SpringRegistrationStartingSoon
+          - Leagues/Baseball/FallRegistrationStartingSoon
+          - Leagues/Baseball/RegistrationGoingOnNow
+          - Leagues/Baseball/WelcomeToRegistration
+          - Leagues/Basketball/Registration
+          - Leagues/Soccer/SpringRegistrationStartingSoon
+          - Leagues/Soccer/SummerRegistrationStartingSoon
+          - Leagues/Soccer/FallRegistrationStartingSoon
+          - Leagues/Soccer/RegistrationGoingOnNow
+          - Leagues/Soccer/WelcomeToRegistration
+          - Leagues/Softball/Registration
+          - Leagues/FlagFootball/Registration
+          - Leagues/Volleyball/Registration
+          - Leagues/Combo/FallRegistrationStartingSoon
 
       target_tv:
         required: true

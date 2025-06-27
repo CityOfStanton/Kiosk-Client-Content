@@ -1,0 +1,15 @@
+{
+    "name": "WelcomeToRegistration",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/TV-Welcom_To_Registration.png",
+            "stretch": "Fill",
+            "name": "WelcomeToRegistration",
+            "duration": 900
+        }
+    ]
+}

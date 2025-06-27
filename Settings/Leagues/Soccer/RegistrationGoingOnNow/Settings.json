@@ -1,14 +1,14 @@
 {
-    "name": "Teen Summer League",
+    "name": "RegistrationGoingOnNow",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TeenSummerLeague/SummerTeenLeague.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Registration_Going_On_Now.png",
             "stretch": "Fill",
-            "name": "Show Teen Summer League advertisement",
+            "name": "RegistrationGoingOnNow",
             "duration": 900
         }
     ]

@@ -1,14 +1,14 @@
 {
-    "name": "Baseball/Soccer Registration Menu",
+    "name": "FallRegistrationStartingSoon",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Combo/Soccer-Logo_Registration-Combo.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Fall_Registration_Starting_Soon.png",
             "stretch": "Fill",
-            "name": "Show the combo Baseball/Soccer Registration Logo",
+            "name": "FallRegistrationStartingSoon",
             "duration": 900
         }
     ]

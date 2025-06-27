@@ -1,0 +1,15 @@
+{
+    "name": "RegistrationGoingOnNow",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/TV-Registration_Going_On_Now.png",
+            "stretch": "Fill",
+            "name": "RegistrationGoingOnNow",
+            "duration": 900
+        }
+    ]
+}

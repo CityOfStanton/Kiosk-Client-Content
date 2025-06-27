@@ -1,0 +1,15 @@
+{
+    "name": "FallRegistrationStartingSoon",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/TV-Fall_Registration_Starting_Soon.png",
+            "stretch": "Fill",
+            "name": "FallRegistrationStartingSoon",
+            "duration": 900
+        }
+    ]
+}
