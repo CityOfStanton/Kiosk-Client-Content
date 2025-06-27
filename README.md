@@ -18,8 +18,8 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 | TV 1 | Horizontal | Mounted to the left of the concession stand, closest to the baseball fields. |
 | TV 2 | Horizontal | Mounted to the right of the concession stand, closest to the splash park. |
 | TV 3 | Horizontal | On a cart in the concession stand. |
-| TV 4 | Vertical | Facing outside the window next to the entrance closest to the parking lot. |
-| TV 5 | Horizontal | Spare PC to be used as replacement. |
+| TV 4 | Vertical | Spare PC to be used as replacement. |
+| TV 5 | Horizontal | Facing outside the window next to the entrance closest to the parking lot. |
 
 ## Structure
 
