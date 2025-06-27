@@ -58,7 +58,7 @@ jobs:
             Settings
             StantonCityPark
 
-      - name: Copy $SETTINGS_FILE to $TARGET_TV
+      - name: Copy ${{ inputs.setting_file }} to ${{ inputs.target_tv }}
         run: |
           cp ${GITHUB_WORKSPACE}/Settings/$SETTINGS_FILE/Settings.json ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_TV/Settings.json
 
