@@ -1,15 +1,22 @@
 {
-    "name": "Out-Of-School Bash - TV Banner",
+    "name": "Baseball/Soccer Registration Starting Soon",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner12.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Baseball/TV-Fall_Registration_Starting_Soon.png",
             "stretch": "Fill",
-            "name": "Show the Out-Of-School Bash TV Banner",
-            "duration": 1200
+            "name": "Show the combo Baseball/Soccer Registration Starting SoonLogo",
+            "duration": 450
+        },
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Combo/Assets/Soccer/TV-Fall_Registration_Starting_Soon.png",
+            "stretch": "Fill",
+            "name": "Show the combo Baseball/Soccer Registration Starting SoonLogo",
+            "duration": 450
         }
     ]
-  }
+}
