@@ -9,6 +9,7 @@ on:
         options:
           - Menu/RegularMenu
           - Menu/TournamentMenu
+          - Menu/TournamentMenuWithoutBreakfast
           - Calendar/WeekView
           - External/IgniteAthletics
           - OutOfSchoolBash/Current
