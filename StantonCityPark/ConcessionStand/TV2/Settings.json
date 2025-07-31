@@ -1,14 +1,14 @@
 {
-    "name": "Concession Stand Menu",
+    "name": "Corn Festival (Landscape)",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/TournamentMenuWithoutBreakfast/Display/TournamentMenuWithoutBreakfast.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/CornFestival/CFSchedule-Landsacape.jpg",
             "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
+            "name": "Corn Festival (Landscape)",
             "duration": 1200
         }
     ]
