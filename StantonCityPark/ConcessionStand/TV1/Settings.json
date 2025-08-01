@@ -1,5 +1,5 @@
 {
-    "name": "Concession Stand Menu",
+    "name": "Corn Festival Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
@@ -8,7 +8,7 @@
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
             "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
+            "name": "Corn Festival Menu",
             "duration": 1200
         }
     ]
