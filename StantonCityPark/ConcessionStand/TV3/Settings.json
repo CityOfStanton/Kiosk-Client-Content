@@ -1,15 +1,15 @@
 {
-    "name": "RegistrationGoingOnNow",
+    "name": "Concession Stand Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Registration_Going_On_Now.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
             "stretch": "Fill",
-            "name": "RegistrationGoingOnNow",
-            "duration": 900
+            "name": "Show the Concession Stand menu",
+            "duration": 1200
         }
     ]
 }
