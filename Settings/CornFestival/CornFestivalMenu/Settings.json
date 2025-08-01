@@ -1,14 +1,14 @@
 {
-    "name": "Corn Festival (Landscape)",
+    "name": "Corn Festival Menu",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/CornFestival/CFSchedule-Landscape.jpg",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/CornFestival/Menu-Yellow.png",
             "stretch": "Fill",
-            "name": "Corn Festival (Landscape)",
+            "name": "Corn Festival Menu",
             "duration": 1200
         }
     ]
