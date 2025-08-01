@@ -1,15 +1,15 @@
 {
-    "name": "RegistrationGoingOnNow",
+    "name": "Corn Festival (Landscape)",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Registration_Going_On_Now.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/CornFestival/CFSchedule-Landscape.jpg",
             "stretch": "Fill",
-            "name": "RegistrationGoingOnNow",
-            "duration": 900
+            "name": "Corn Festival (Landscape)",
+            "duration": 1200
         }
     ]
 }
