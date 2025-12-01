@@ -8,7 +8,7 @@
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/WinterFest/RegularMenu/Display/RegularMenu.png",
             "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
+            "name": "Show the Concession Stand Winterfest menu",
             "duration": 1200
         }
     ]
