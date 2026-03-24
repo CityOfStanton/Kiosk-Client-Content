@@ -1,19 +1,14 @@
 {
-    "name": "City Park Calendar - Week View",
-    "version": "1.0",
+    "name": "Soccer Registration Logo",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
-            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-            "path": "https://parkcalendar.stantonky.gov/stream",
-            "autoScroll": false,
-            "scrollingTime": 15,
-            "scrollingResetDelay": 5,
-            "settingsDisplayTime": 900,
-            "name": "Display the Park Calendar - Stream View",
-            "version": "1.0",
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/Soccer_Logo_Registration_Orange_Stripe.png",
+            "stretch": "Fill",
+            "name": "Show the Orange Stripe Soccer Registration Logo",
             "duration": 900
         }
     ]
