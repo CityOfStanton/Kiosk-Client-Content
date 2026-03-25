@@ -10,6 +10,7 @@ on:
           - Menu/RegularMenu
           - Menu/TournamentMenu
           - Menu/TournamentMenuWithoutBreakfast
+          - Menu/WinterFest
           - Calendar/WeekView
           - External/IgniteAthletics
           - OutOfSchoolBash/Current
@@ -24,7 +25,9 @@ on:
           - Leagues/Soccer/FallRegistrationStartingSoon
           - Leagues/Soccer/RegistrationGoingOnNow
           - Leagues/Soccer/WelcomeToRegistration
-          - Leagues/Softball/Registration
+          - Leagues/Softball/RegistrationGoingOnNow
+          - Leagues/Softball/SummerRegistrationStartingSoon
+          - Leagues/Softball/WelcomeToRegistration
           - Leagues/FlagFootball/Registration
           - Leagues/Volleyball/Registration
           - Leagues/Combo/FallRegistrationStartingSoon

@@ -6,9 +6,9 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/Soccer_Logo_Registration_Orange_Stripe.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Softball/TV-Welcom_To_Registration.png",
             "stretch": "Fill",
-            "name": "Show the Orange Stripe Soccer Registration Logo",
+            "name": "Show the Purple Stripe Softball Registration Logo",
             "duration": 900
         }
     ]

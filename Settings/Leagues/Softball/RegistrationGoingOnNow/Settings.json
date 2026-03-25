@@ -1,0 +1,15 @@
+{
+    "name": "Soccer Registration Logo",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Softball/TV-Registration_Going_On_Now.png",
+            "stretch": "Fill",
+            "name": "Show the Softball Registration Going On Now Logo",
+            "duration": 900
+        }
+    ]
+}
