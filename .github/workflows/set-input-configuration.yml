@@ -1,10 +1,10 @@
-name: Set TV Configuration
+name: Set Input Configuration
 on:
   workflow_dispatch:
     inputs:
       setting_file:
         required: true
-        description: The Settings to apply to the target TV
+        description: The Settings to apply to the target input
         type: choice
         options:
           - Menu/RegularMenu
@@ -32,19 +32,19 @@ on:
           - Leagues/Volleyball/Registration
           - Leagues/Combo/FallRegistrationStartingSoon
 
-      target_tv:
+      target_input:
         required: true
-        description: The TV to change
+        description: The input to change
         type: choice
         options:
-          - TV1
-          - TV2
-          - TV3
-          - TV4
-          - TV5
+          - Input1
+          - Input2
+          - Input3
+          - Input4
+          - Input5
 
 jobs:
-  set-tv-configuration:
+  set-input-configuration:
     runs-on: ubuntu-latest
 
     permissions:
@@ -53,7 +53,7 @@ jobs:
 
     env:
       SETTINGS_FILE: ${{ inputs.setting_file }}
-      TARGET_TV: ${{ inputs.target_tv }}
+      TARGET_INPUT: ${{ inputs.target_input }}
 
     steps:
       - name: Checkout files
@@ -63,14 +63,14 @@ jobs:
             Settings
             StantonCityPark
 
-      - name: Copy ${{ inputs.setting_file }} to ${{ inputs.target_tv }}
+      - name: Copy ${{ inputs.setting_file }} to ${{ inputs.target_input }}
         run: |
-          cp ${GITHUB_WORKSPACE}/Settings/$SETTINGS_FILE/Settings.json ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_TV/Settings.json
+          cp ${GITHUB_WORKSPACE}/Settings/$SETTINGS_FILE/Settings.json ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_INPUT/Settings.json
 
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_TV/Settings.json
-          git commit -m "Copied $SETTINGS_FILE to $TARGET_TV"
+          git add ${GITHUB_WORKSPACE}/StantonCityPark/ConcessionStand/$TARGET_INPUT/Settings.json
+          git commit -m "Copied $SETTINGS_FILE to $TARGET_INPUT"
           git push
