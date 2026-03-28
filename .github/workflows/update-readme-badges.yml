@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - 'StantonCityPark/**'
+      - '.github/workflows/update-readme-badges.yml'
+      - '.github/workflows/lib/update_badges.py'
 
 jobs:
   update-readme-badges:

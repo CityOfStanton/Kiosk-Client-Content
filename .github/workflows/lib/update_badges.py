@@ -69,20 +69,29 @@ def update_badges_in_readme(readme_path: str, badge_map: dict[str, str]) -> bool
 
     original = content
     for folder_name, encoded_label in badge_map.items():
-        # Match the full badge markdown for this folder name.
-        # Group 1: everything up to and including  /badge/<FOLDER>-
-        # Group 2: the current label (one or more non-dash, non-?) chars/sequences)
-        # Group 3: the trailing  -<color>?... portion
-        #
         # Shields.io badge URL structure:
         #   /badge/<left_label>-<right_label>-<color>[?query]
         #
-        # We anchor on the folder name as the left_label and replace only the
-        # right_label segment (everything between the first and last bare "-").
+        # The encoded label itself may contain "--" (escaped hyphens) which
+        # would confuse a pattern that uses "-" as a separator.  To avoid
+        # that, we match the *current* label as "everything that isn't the
+        # trailing -<color> segment", where the color segment is defined as a
+        # single bare hyphen followed by one or more word/percent chars up to
+        # the closing ")" or "?".
+        #
+        # Group 1: prefix  ...badge/<FOLDER>-
+        # Group 2: current label  (greedy, but we make it give back the color)
+        # Group 3: trailing -<color>[?query])
+        #
+        # The color segment is a bare "-" (not "--") followed by non-")"
+        # chars, so we use a negative-lookbehind on group 3 to ensure the
+        # hyphen that starts it is not itself preceded by another hyphen.
         pattern = (
             r"(!\[Static Badge\]\(https://img\.shields\.io/badge/"
             + re.escape(folder_name)
-            + r"-)([^-?][^?]*?)(-[^-?][^)?]*(?:\?[^)]*)?)\)"
+            + r"-)"          # group 1: up to and including the first separator dash
+            + r"(.+?)"       # group 2: current label (non-greedy)
+            + r"((?<!-)(?<!\-)-[a-zA-Z0-9%]+(?:\?[^)]*)?)\)"  # group 3: -color[?query])
         )
 
         def make_replacement(enc_label):
