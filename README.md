@@ -22,13 +22,16 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 
 ## Location Map
 
-| Computer Name | Orientation | Location |
-| - | :-: | - |
-| TV 1 | Horizontal | Mounted to the left of the concession stand, closest to the baseball fields. |
-| TV 2 | Horizontal | Mounted to the right of the concession stand, closest to the splash park. |
-| TV 3 | Horizontal | On a cart in the concession stand. |
-| TV 4 | Vertical | Spare PC to be used as replacement. |
-| TV 5 | Horizontal | Facing outside the window next to the entrance closest to the parking lot. |
+| Computer Name | Status | Orientation | Location |
+| - | - | :-: | - |
+| Output 1 | Active | Vertical | Facing outside the window next to the entrance closest to the parking lot. |
+| Output 2 | *Planned* | Horizontal | Mounted on the ceiling opposite the concession stand on the right, closest to the splash park. |
+| Output 3 | *Planned* | Horizontal | Mounted on the ceiling opposite the concession stand on the left, closest to the baseball fields. |
+| Output 4 | *Planned* | Horizontal | Mounted on the wall closest to the red playground on the left side. |
+| Output 5 | Active | Horizontal | Mounted on the wall closest to the red playground on the right side. |
+| Output 6 | *Planned* | Horizontal | Facing outside the walk-up window, closest to the baseball fields. |
+| Output 7 | Active | Horizontal | Mounted to the left of the concession stand, closest to the baseball fields. |
+| Output 8 | Active | Horizontal | Mounted to the right of the concession stand, closest to the splash park. |
 
 ## Structure
 
