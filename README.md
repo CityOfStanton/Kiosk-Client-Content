@@ -14,11 +14,11 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 
 ## Current Configuration
 
-* ![Static Badge](https://img.shields.io/badge/TV1-Regular%20Menu-blue?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/TV2-Regular%20Menu-green?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/TV3-Regular%20Menu-yellow?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/TV4-Regular%20Menu-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/TV5-Regular%20Menu-red?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV1-Concession%20Stand%20Menu-blue?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV2-Concession%20Stand%20Menu-green?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV3-Concession%20Stand%20Menu-yellow?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV4-Soccer%20Registration%20Logo-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV5-City%20Park%20Calendar%20--%20Week%20View-red?logo=tv)
 
 ## Location Map
 
