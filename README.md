@@ -3,6 +3,7 @@
 
 This repository contains all of the configuration data for the [Kiosk Client](https://github.com/CityOfStanton/Kiosk-Client/) deployments. This content not only controls what is displayed, but also houses the assets used in the Orchestration files.
 
+- [Current Configuration](#current-configuration)
 - [Location Map](#location-map)
 - [Structure](#structure)
   - [Assets](#assets)
@@ -10,6 +11,14 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
   - [Location Names](#location-names)
     - [StantonCityPark](#stantoncitypark)
     - [StantonCityHall](#stantoncityhall)
+
+## Current Configuration
+
+* ![Static Badge](https://img.shields.io/badge/TV1-Regular%20Menu-blue?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV2-Regular%20Menu-green?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV3-Regular%20Menu-yellow?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV4-Regular%20Menu-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/TV5-Regular%20Menu-red?logo=tv)
 
 ## Location Map
 

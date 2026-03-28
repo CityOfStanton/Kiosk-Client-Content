@@ -1,0 +1,7 @@
+# No third-party packages required.
+# update_badges.py uses only the Python standard library:
+#   - argparse
+#   - json
+#   - os
+#   - re
+#   - sys

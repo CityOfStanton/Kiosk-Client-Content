@@ -1,0 +1,46 @@
+name: Update README Badges
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'StantonCityPark/**'
+
+jobs:
+  update-readme-badges:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            StantonCityPark
+            README.md
+            .github/workflows/lib
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r ${GITHUB_WORKSPACE}/.github/workflows/lib/requirements.txt
+
+      - name: Update README badges
+        run: |
+          python ${GITHUB_WORKSPACE}/.github/workflows/lib/update_badges.py \
+            --repo-root ${GITHUB_WORKSPACE}
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add ${GITHUB_WORKSPACE}/README.md
+          git diff --staged --quiet || git commit -m "chore: update README badges from Settings.json names"
+          git push
