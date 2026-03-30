@@ -6,9 +6,9 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Softball/TV-Summer_Registration_Starting_Soon.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Softball/TV-Registration_Going_On_Now.png",
             "stretch": "Fill",
-            "name": "Show the Softball Summer Registration Starting Soon Logo",
+            "name": "Show the Softball Registration Going On Now Logo",
             "duration": 900
         }
     ]
