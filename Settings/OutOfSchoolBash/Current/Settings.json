@@ -6,7 +6,7 @@
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out-Of-School-Bash_TV-Banner12.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/OutOfSchoolBash/Out_Of_School_Bash_TV_Display.png",
             "stretch": "Fill",
             "name": "Show the Out-Of-School Bash TV Banner",
             "duration": 1200
