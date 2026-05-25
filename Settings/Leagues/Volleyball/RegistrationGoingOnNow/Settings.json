@@ -1,14 +1,14 @@
 {
-    "name": "Softball Registration Logo",
+    "name": "Volleyball Registration Logo",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Softball/TV-Welcome_To_Registration.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Volleyball/TV-Registration_Going_On_Now.png",
             "stretch": "Fill",
-            "name": "Show the Purple Stripe Softball Registration Logo",
+            "name": "Show the Volleyball Registration Going On Now Logo",
             "duration": 900
         }
     ]

@@ -1,0 +1,15 @@
+{
+    "name": "Volleyball Registration Logo",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Volleyball/TV-Summer_Registration_Starting_Soon.png",
+            "stretch": "Fill",
+            "name": "Show the Volleyball Summer Registration Starting Soon Logo",
+            "duration": 900
+        }
+    ]
+}

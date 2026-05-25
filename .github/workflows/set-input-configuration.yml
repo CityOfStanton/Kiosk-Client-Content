@@ -29,7 +29,9 @@ on:
           - Leagues/Softball/SummerRegistrationStartingSoon
           - Leagues/Softball/WelcomeToRegistration
           - Leagues/FlagFootball/Registration
-          - Leagues/Volleyball/Registration
+          - Leagues/Volleyball/RegistrationGoingOnNow
+          - Leagues/Volleyball/SummerRegistrationStartingSoon
+          - Leagues/Volleyball/WelcomeToRegistration
           - Leagues/Combo/FallRegistrationStartingSoon
 
       target_input:
