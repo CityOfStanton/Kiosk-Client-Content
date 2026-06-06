@@ -15,8 +15,8 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 ## Current Configuration
 
 * ![Static Badge](https://img.shields.io/badge/Input1-Concession%20Stand%20Menu-blue?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input2-Concession%20Stand%20Menu-green?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input3-Tournament%20Menu-yellow?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input2-Volleyball%20Registration%20Logo-green?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input3-Out--Of--School%20Bash%20--%20TV%20Banner-yellow?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input4-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/FrontDoor-City%20Park%20Calendar%20--%20Week%20View-red?logo=tv)
 
