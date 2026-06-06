@@ -44,7 +44,7 @@ on:
           - Input2
           - Input3
           - Input4
-          - Input5
+          - FrontDoor
 
 jobs:
   set-input-configuration:
