@@ -18,10 +18,10 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 * ![Static Badge](https://img.shields.io/badge/Input2-Volleyball%20Registration%20Logo-green?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input3-Out--Of--School%20Bash%20--%20TV%20Banner-yellow?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input4-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input5-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input6-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input7-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input8-Out--Of--School%20Bash%20--%20TV%20Banner-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input5-Concession%20Stand%20Menu-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input6-Concession%20Stand%20Menu-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input7-Concession%20Stand%20Menu-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input8-Concession%20Stand%20Menu-purple?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/FrontDoor-City%20Park%20Calendar%20--%20Week%20View-red?logo=tv)
 
 ## Location Map
