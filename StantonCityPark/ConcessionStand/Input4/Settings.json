@@ -1,14 +1,14 @@
 {
-    "name": "FallRegistrationStartingSoon",
+    "name": "RegistrationGoingOnNow",
     "pollingIntervalMinutes": 15,
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
         {
             "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Fall_Registration_Starting_Soon.png",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Soccer/TV-Registration_Going_On_Now.png",
             "stretch": "Fill",
-            "name": "FallRegistrationStartingSoon",
+            "name": "RegistrationGoingOnNow",
             "duration": 900
         }
     ]
