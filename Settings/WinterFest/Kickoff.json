@@ -1,0 +1,15 @@
+{
+    "name": "WinterFest Kickoff Event 2026",
+    "pollingIntervalMinutes": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/WinterFest/WinterfestKickoff2026.jpg",
+            "stretch": "Fill",
+            "name": "Show the WinterFest Kickoff Event 2026",
+            "duration": 1200
+        }
+    ]
+}
