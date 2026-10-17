@@ -9,7 +9,7 @@
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Test/TestVideo.mp4",
             "stretch": "Uniform",
             "isMuted": false,
-            "loop": true,
+            "playMode": "DurationLoop",
             "name": "Play the test video",
             "version": "1.0",
             "duration": 15

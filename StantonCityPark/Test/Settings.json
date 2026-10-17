@@ -1,15 +1,37 @@
 {
-    "name": "Concession Stand Menu",
-    "pollingInterval": 15,
-    "lifecycle": "ContinuousLoop",
-    "order": "Sequential",
-    "actions": [
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
-            "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
-            "duration": 15
-        }
-    ]
+  "name": "Example demo project for JSON",
+  "version": "1.0",
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+      "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client/main/logo/Kiosk-Client_GitHub%20Social%20Preview.png",
+      "stretch": "Uniform",
+      "name": "Show the Kiosk Client Social Share image from GitHub",
+      "version": "1.0",
+      "duration": 5
+    },
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://github.com/CityOfStanton/Kiosk-Client",
+      "autoScroll": true,
+      "scrollingTime": 15,
+      "scrollingResetDelay": 5,
+      "settingsDisplayTime": 5,
+      "name": "Display the Kiosk Client GitHub page",
+      "version": "1.0",
+      "duration": 20
+    },
+    {
+      "$type": "KioskLibrary.Actions.VideoAction, KioskLibrary",
+      "path": "C:\\Videos\\example.mp4",
+      "stretch": "Uniform",
+      "isMuted": false,
+      "playMode": "DurationLoop",
+      "name": "Play a local video file",
+      "version": "1.0",
+      "duration": 30
+    }
+  ]
 }
