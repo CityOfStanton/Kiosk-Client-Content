@@ -1,0 +1,18 @@
+{
+    "name": "Test Video",
+    "pollingInterval": 15,
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.VideoAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Test/TestVideo.mp4",
+            "stretch": "Uniform",
+            "isMuted": false,
+            "loop": true,
+            "name": "Play the test video",
+            "version": "1.0",
+            "duration": 15
+        }
+    ]
+}

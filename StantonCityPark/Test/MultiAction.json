@@ -1,0 +1,35 @@
+{
+    "name": "Concession Stand Menu",
+    "lifecycle": "ContinuousLoop",
+    "order": "Sequential",
+    "actions": [
+        {
+            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
+            "stretch": "Fill",
+            "name": "Show the Concession Stand menu",
+            "duration": 15
+        },
+        {
+            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+            "path": "https://parkcalendar.stantonky.gov/stream",
+            "autoScroll": false,
+            "scrollingTime": 15,
+            "scrollingResetDelay": 5,
+            "settingsDisplayTime": 10,
+            "name": "Display the Park Calendar - Stream View",
+            "version": "1.0",
+            "duration": 15
+        },
+        {
+            "$type": "KioskLibrary.Actions.VideoAction, KioskLibrary",
+            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Test/TestVideo.mp4",
+            "stretch": "Uniform",
+            "isMuted": false,
+            "loop": true,
+            "name": "Play the test video",
+            "version": "1.0",
+            "duration": 15
+        }
+    ]
+}
