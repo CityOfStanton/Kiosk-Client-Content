@@ -7,7 +7,7 @@
     {
       "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
       "path": "https://parkcalendar.stantonky.gov/stream",
-      "autoScroll": false,
+      "autoScroll": true,
       "scrollingTime": 15,
       "scrollingResetDelay": 5,
       "settingsDisplayTime": 10,

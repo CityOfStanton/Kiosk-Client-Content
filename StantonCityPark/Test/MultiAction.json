@@ -1,8 +1,8 @@
 {
   "name": "Concession Stand Menu",
   "version": "2.0",
-  "lifecycle": "ContinuousLoop",
-  "order": "Sequential",
+  "lifecycle": "SingleRun",
+  "order": "Random",
   "actions": [
     {
       "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
