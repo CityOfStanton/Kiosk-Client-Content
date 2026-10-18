@@ -1,15 +1,16 @@
 {
-    "name": "Concession Stand Menu",
-    "pollingInterval": 15,
-    "lifecycle": "ContinuousLoop",
-    "order": "Sequential",
-    "actions": [
-        {
-            "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
-            "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
-            "stretch": "Fill",
-            "name": "Show the Concession Stand menu",
-            "duration": 15
-        }
-    ]
+  "name": "Concession Stand Menu",
+  "version": "2.0",
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.ImageAction, KioskLibrary",
+      "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/RegularMenu/Display/RegularMenu.png",
+      "stretch": "Fill",
+      "name": "Show the Concession Stand menu",
+      "version": "2.0",
+      "duration": 15
+    }
+  ]
 }
