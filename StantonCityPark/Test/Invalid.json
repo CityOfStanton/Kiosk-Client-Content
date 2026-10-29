@@ -1,0 +1,19 @@
+{
+  "name": "Invalid Orchestration",
+  "version": "2.0",
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://this-web-page-does-not-exist",
+      "autoScroll": false,
+      "scrollSpeed": -4,
+      "scrollingStartDelay": -66,
+      "settingsDisplayTime": -10,
+      "name": "Display the Park Calendar - Stream View",
+      "version": "2.0",
+      "duration": 15
+    }
+  ]
+}
