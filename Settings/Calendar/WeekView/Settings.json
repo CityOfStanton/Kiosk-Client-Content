@@ -1,20 +1,19 @@
 {
-    "name": "City Park Calendar - Week View",
-    "version": "1.0",
-    "pollingIntervalMinutes": 15,
-    "lifecycle": "ContinuousLoop",
-    "order": "Sequential",
-    "actions": [
-        {
-            "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
-            "path": "https://parkcalendar.stantonky.gov/stream",
-            "autoScroll": false,
-            "scrollingTime": 15,
-            "scrollingResetDelay": 5,
-            "settingsDisplayTime": 900,
-            "name": "Display the Park Calendar - Stream View",
-            "version": "1.0",
-            "duration": 900
-        }
-    ]
+  "name": "City Park Calendar - Week View",
+  "version": "2.0",
+  "lifecycle": "ContinuousLoop",
+  "order": "Sequential",
+  "actions": [
+    {
+      "$type": "KioskLibrary.Actions.WebsiteAction, KioskLibrary",
+      "path": "https://parkcalendar.stantonky.gov/stream",
+      "autoScroll": true,
+      "scrollSpeed": 1,
+      "scrollingStartDelay": 0,
+      "settingsDisplayTime": 10,
+      "name": "Display the Park Calendar - Stream View",
+      "version": "2.0",
+      "duration": 60
+    }
+  ]
 }
