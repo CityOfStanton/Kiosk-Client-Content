@@ -1,6 +1,6 @@
 {
     "name": "WinterFest Like Us On Facebook",
-    "pollingIntervalMinutes": 15,
+    "version": "2.0",
     "lifecycle": "ContinuousLoop",
     "order": "Sequential",
     "actions": [
@@ -9,7 +9,8 @@
             "path": "https://raw.githubusercontent.com/CityOfStanton/Kiosk-Client-Content/main/Assets/Menu/WinterFest/WinterfestLikeUsOnFacebook.jpg",
             "stretch": "Fill",
             "name": "Show the WinterFest Like Us On Facebook message",
-            "duration": 1200
+            "version": "2.0",
+            "duration": 30
         }
     ]
 }
