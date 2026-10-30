@@ -18,7 +18,7 @@ This repository contains all of the configuration data for the [Kiosk Client](ht
 * ![Static Badge](https://img.shields.io/badge/Input2-Tournament%20Menu-green?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input3-WinterFest%20Kickoff%20Event%202026-yellow?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input4-WinterFest%20Like%20Us%20On%20Facebook-purple?logo=tv)
-* ![Static Badge](https://img.shields.io/badge/Input5-Concession%20Stand%20Menu-purple?logo=tv)
+* ![Static Badge](https://img.shields.io/badge/Input5-City%20Park%20Calendar%20--%20Week%20View-purple?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input6-Concession%20Stand%20Menu-purple?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input7-Concession%20Stand%20Menu-purple?logo=tv)
 * ![Static Badge](https://img.shields.io/badge/Input8-Concession%20Stand%20Menu-purple?logo=tv)
